@@ -1,0 +1,1 @@
+Projeto simples em Java para aprendizado pessoal, utilizando Scanner, contas matemáticas básicas e lógica.
