@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haze</title>
+    <link rel="shortcut icon" href="../img/haze_logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/pagina_inicial.css">
+</head>
+
+<body>
+    <header class="topo">
+        <img id="logo" src="../img/haze_logo_transparent-removebg-preview.png" alt="logo_haze">
+        <h3 id="haze">Haze</h3>
+    </header>
+
+    <main id="mainContent">
+        <section id="pagina1" class="secao">
+            <div class="txt-principal">
+                <img class="foguete" src="../img/Foguete.png" alt="Foguete">
+                <h1>Jogue com <br> a gente!</h1>
+                <button id="openModalBtn" class="botao">Entrar</button>
+            </div>
+        </section>
+
+        <section class="pagina2">
+            <img id="imagem2" src="../img/jogando-amigos.png" alt="meninas jogando">
+            <div class="conteudo">
+                <h1 class="title2">Jogue <br>com amigos</h1>
+                <p class="paragr2">Use a Haze para se divertir com as pessoas que você conhece.<br><br>
+                    A Haze pode conectar você a novas pessoas.</p>
+            </div>
+        </section>
+
+        <section id="pagina3">
+            <img id="imagem3" src="../img/cara_celular.png" alt="">
+            <div class="conteudo2">
+                <h1 class="title3">Lorem Ipsum</h1>
+                <p class="paragr3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </section>
+
+        <section id="pagina4">
+            <img id="imagem4" src="../img/celular.png" alt="">
+            <div class="conteudo4">
+                <h1 class="title4">Lorem Ipsum</h1>
+                <p class="paragr4">Quasi laboriosam mollitia animi repellat eaque distinctio.</p>
+            </div>
+        </section>
+
+        <section id="pagina5">
+            <img id="imagem5" src="../img/jogos.png" alt="">
+            <div class="conteudo5">
+                <h1 class="title5">Fale conosco</h1>
+                <p>36406961 - Bruno Viotto Dos Santos</p>
+                <p>38242753 - Lucas Henrique Borille</p>
+                <p>37767615 - Talysson Decol Lago Ferreira</p>
+                <p>38885142 - Gabriel Wruca Riccetto</p>
+                <p>35538694 - Vittor Marques Dallacqua Longati</p>
+                <p>38720507 - Thiago Ferreira Medici</p>
+            </div>
+        </section>
+
+        <div class="rollup" id="rollup">
+            <img class="seta" src="../img/seta.png" alt="seta">
+        </div>
+    </main>
+
+    <!-- Modais -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" data-target="loginModal">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="email" name="email" placeholder="Email" required><br><br>
+                <input type="password" id="password" name="password" placeholder="Senha" required><br><br>
+                <input type="submit" value="Entrar" class="button" id="entrar">
+            </form>
+            <p class="descricao">Não tem uma conta? <a href="#" id="openRegisterFromLogin">Cadastre-se</a></p>
+        </div>
+    </div>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" data-target="registerModal">&times;</span>
+            <h2>Cadastro</h2>
+            <form id="registerForm">
+                <input type="text" id="username" name="username" placeholder="Nome de usuário" required><br><br>
+                <input type="email" id="registerEmail" name="email" placeholder="Email" required><br><br>
+                <input type="password" id="registerPassword" name="password" placeholder="Senha" required><br><br>
+                <input type="submit" value="Cadastrar" class="button">
+            </form>
+            <p class="descricao2">Já tem uma conta? <a href="#" id="openLoginFromRegister">Faça login</a></p>
+        </div>
+    </div>
+
+    <script src="../src/scripts/script.js"></script>
+    <script src="../src/scripts/login.js"></script>
+</body>
+
+</html>

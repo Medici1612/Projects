@@ -1,0 +1,65 @@
+
+#pagina {
+    margin-top: 5rem;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+
+#roleta {
+
+    height: calc(var(--js-roleta-raio) * 2);
+    width: calc(var(--js-roleta-raio) * 2);
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+ 
+    animation: rodar-roleta 15s ease-out 2s normal forwards;
+}
+
+
+.triangulo {
+    border: var(--js-base) solid transparent;
+    border-top: var(--js-roleta-raio) solid transparent;
+    border-bottom: var(--js-roleta-raio) solid var(--cor-triangulo);
+    height: 0;
+    width: 0;
+
+    position: absolute;
+    left: calc(50% - var(--js-base));
+}
+
+
+.triangulo-label {
+  
+    position: absolute;
+    bottom: calc(-1 * var(--js-roleta-raio) * 0.95);
+    translate: -50%;
+
+
+    color: #eee;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+
+.preto {
+    --cor-triangulo: #333;
+}
+
+.vermelho {
+    --cor-triangulo: #c33;
+}
+
+.especial {
+    --cor-triangulo: #aa3;
+}
+
+/* Animação da roleta */
+@keyframes rodar-roleta {
+    100% {
+        rotate: calc(360deg * 5);
+    }
+}

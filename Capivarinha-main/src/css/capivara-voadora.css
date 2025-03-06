@@ -1,0 +1,30 @@
+#pagina {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+#em-breve {
+    position: relative;
+    height: 300px;
+    aspect-ratio: 1 / 1;
+}
+
+#em-breve > img {
+    width: 300px;
+    filter: blur(5px);
+}
+
+#em-breve > span {
+    display: block;
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: max-content;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

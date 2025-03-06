@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haze</title>
+    <link rel="shortcut icon" href="../img/haze_logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/reviews.css">
+    <link rel="stylesheet" href="../src/css/capivara-voadora.css">
+
+    <script src="../src/scripts/sessao.js"></script>
+</head>
+
+<body>
+    <header class="topo">
+        <img id="logo" src="../img/haze_logo_transparent-removebg-preview.png" alt="logo_haze">
+        <h3 id="haze">Haze</h3>
+    </header>
+
+    <main id="pagina">
+        <section id="em-breve">
+            <img src="../img/capivara_voadora.png">
+            <span>Em Breve</span>
+        </section>
+
+        <form action="../public/roleta.html" id="review" data-tag="capivara-voadora">
+            <h2>Avaliação</h2>
+
+            <div id="estrelas">
+                <input type="radio" name="estrelas" id="estrela_1" value="1">
+                <label for="estrela_1">1</label>
+
+                <input type="radio" name="estrelas" id="estrela_2" value="2">
+                <label for="estrela_2">2</label>
+
+                <input type="radio" name="estrelas" id="estrela_3" value="3">
+                <label for="estrela_3">3</label>
+
+                <input type="radio" name="estrelas" id="estrela_4" value="4">
+                <label for="estrela_4">4</label>
+
+                <input type="radio" name="estrelas" id="estrela_5" value="5">
+                <label for="estrela_5">5</label>
+            </div>
+
+            <textarea rows="5" name="comentario" id="comentario"
+                placeholder="Digite aqui a sua avaliação..."></textarea>
+
+            <button type="submit" class="button">Avaliar</button>
+        </form>
+    </main>
+
+    <script src="../src/scripts/header.js"></script>
+    <script src="../src/scripts/reviews.js"></script>
+</body>
+
+</html>

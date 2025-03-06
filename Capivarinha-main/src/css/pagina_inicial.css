@@ -1,0 +1,446 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    /* Evita rolagem horizontal */
+}
+
+#pagina1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at bottom right, #1f41bb, #1f41bb, #101728, #101728);
+}
+
+#pagina2,
+#pagina3,
+#pagina4,
+#pagina5 {
+    background-color: #101728;
+}
+
+#pagina3 {
+    height: 60vh;
+}
+
+#pagina4 {
+    height: 100vh;
+}
+
+#pagina5 {
+    height: 50vh;
+}
+
+.secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Texto principal */
+#txt-principal {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Botão estilizado */
+.botao {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, #971570, #f953c6);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.foguete {
+    width: 300px;
+}
+
+.title2 {
+    margin-top: 280px;
+    margin-left: 100px;
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    color: #9340ff;
+    font-size: 4rem;
+    display: flex;
+}
+
+.pagina2 {
+    height: 100vh;
+    background: radial-gradient(circle at top right, #1f41bb, #1f41bb, #101728, #101728);
+}
+
+.paragr2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 410px;
+    margin-left: 140px;
+}
+
+#pagina2 {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#imagem2 {
+    float: right;
+    display: flex;
+    margin-right: 400px;
+    height: auto;
+    margin-top: 180px;
+}
+
+.title3,
+.title4,
+.title5 {
+    margin-top: 280px;
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    color: #9340ff;
+    font-size: 4rem;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.paragr3,
+.paragr4 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 410px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.conteudo,
+.conteudo2,
+.conteudo4,
+.conteudo5 {
+    display: flex;
+    flex-direction: column;
+}
+
+#imagem3 {
+    float: left;
+    display: flex;
+    margin-right: 200px;
+    margin-left: 300px;
+    height: 50vh;
+    margin-top: 100px;
+    border-radius: 40px;
+}
+
+#imagem4 {
+    float: right;
+    display: flex;
+    margin-right: 200px;
+    margin-left: 300px;
+    height: 50vh;
+    margin-top: 100px;
+    border-radius: 40px;
+}
+
+#imagem5 {
+    float: right;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 200px;
+    height: 50vh;
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+/* Navegação */
+.rollup {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(180deg);
+}
+
+.seta {
+    width: 50px;
+}
+
+.seta:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    display: grid;
+    place-items: center;
+}
+
+.modal-content {
+    background-color: #101728;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+.descricao {
+    margin-top: 10px;
+    color: #fff;
+}
+
+#openRegisterFromLogin {
+    color: #f953c6;
+}
+
+#entrar.button {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}
+
+#email {
+    align-items: center;
+    margin-top: 10px;
+}
+
+#password {
+    margin-right: 16px;
+}
+
+input#usename {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#registerEmail {
+    margin-right: 16px;
+}
+
+#registerPassword {
+    margin-right: 16px;
+}
+
+.descricao2 {
+    margin-top: 10px;
+    color: #fff;
+}
+
+#openLoginFromRegister {
+    color: #f953c6;
+}
+
+input.button {
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.botao-login {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    background: linear-gradient(to right, #971570, #f953c6);
+}
+
+.title5 {
+    margin-top: 50px;
+}
+
+.conteudo5 {
+    color: #fff;
+}
+
+.conteudo5>p {
+    font-size: 1.25rem;
+    margin-left: 90px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+
+    #pagina2,
+    #pagina3,
+    #pagina4,
+    #pagina5 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .title2,
+    .title3,
+    .title4,
+    .title5 {
+        margin: 40px 0 20px 0;
+        padding-left: 20px;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .paragr2,
+    .paragr3,
+    .paragr4,
+    .paragr5 {
+        margin: 20px;
+        text-align: center;
+    }
+
+    #pagina2,
+    #pagina3,
+    #pagina4,
+    #pagina5 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #imagem2,
+    #imagem3,
+    #imagem4,
+    #imagem5 {
+        float: none;
+        margin: 20px auto;
+        width: 80%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .conteudo,
+    .conteudo2,
+    .conteudo4,
+    .conteudo5 {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .secao {
+        padding: 20px;
+        font-size: 2rem;
+        flex-direction: column;
+    }
+
+    #txt-principal {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .foguete {
+        width: 200px;
+    }
+
+    .title2,
+    .title3,
+    .title4,
+    .title5 {
+        font-size: 2.5rem;
+        margin: 20px 0;
+    }
+
+    .paragr2,
+    .paragr3,
+    .paragr4,
+    .paragr5 {
+        font-size: 16px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .title2,
+    .title3,
+    .title4,
+    .title5 {
+        font-size: 2rem;
+    }
+
+    .botao {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+
+    #imagem2,
+    #imagem3,
+    #imagem4,
+    #imagem5 {
+        width: 95%;
+    }
+}
