@@ -1,6 +1,6 @@
 Olá! Me chamo Thiago e sou estudante de Ciência da Computação na Positivo. Estou no terceiro período do curso e a cada dia me apaixono mais por tecnologia. 
 Por isso, decidi guardar aqui na plataforma alguns de meus projetos e códigos simples para desenvolvimento pessoal e profissional.
-Até o momento que esse arquivo está sendo escrito, eu commitei 4 projetos nesse repositório.
+Até o momento que esse arquivo está sendo escrito, eu commitei 5 projetos nesse repositório.
 
 Capivarinha-main:
 
@@ -56,3 +56,14 @@ Trabalho MySQL:
 ---Conclusão---
 -Projeto pedido por um professor da universidade na matéria de Banco de Dados. Gostei muito de fazer o projeto. Me ajudou a concretizar o meu conhecimento e, assim como os outros, a desafiar meus limites cada vez mais.
 
+Validador de CPF:
+
+---Aprendizados---
+-Projeto simples em Python feito para diversão e fixação de conteúdo, aprimorei lógica matemática e de computação.
+-Aprimorei meu conhecimento sobre Python básico e fixei o conteúdo.
+
+---Tecnologia utilizada---
+-Linguagem Python pura, fazendo uso de lógica e cálculo matemático de CPF.
+
+---Conclusão---
+-Projeto muito simples mas divertido de se fazer, sem alta demanda de tempo mas utiliza uma lógica interessante para cálculo e verificações, extraí um bom aprendizado.
